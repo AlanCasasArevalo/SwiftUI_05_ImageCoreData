@@ -44,8 +44,31 @@ struct SaveView: View {
                         .default(Text("Cancelar"))
                     ])
                 }
+                
+                Button(action: {
+                    self.save()
+                }) {
+                    Text("Guardar imagen")
+                }
             }
         }
+    }
+}
+
+extension SaveView {
+    func save () {
+        let newPlace = Place(context: self.context)
+        newPlace.name = "Colombia"
+        newPlace.imageData = self.imageData
+        
+        do {
+            try self.context.save()
+            print("Se ha guardado correctamente")
+
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        
     }
 }
 
