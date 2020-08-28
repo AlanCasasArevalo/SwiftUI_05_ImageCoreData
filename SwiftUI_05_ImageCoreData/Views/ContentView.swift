@@ -11,7 +11,7 @@ struct ContentView: View {
             Picker(selection: self.$position, label: Text("")) {
                 Image(systemName: "flame.fill").tag(0)
                     .foregroundColor(.blue)
-                Image(systemName: "house.fill").tag(1)
+                Image(systemName: "camera.fill").tag(1)
                     .foregroundColor(Color(.cyan))
                 Image(systemName: "ant.fill").tag(2)
                     .foregroundColor(.green)
