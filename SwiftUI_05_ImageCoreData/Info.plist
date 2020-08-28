@@ -56,5 +56,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Danos tu permiso para poder tomar fotos y luego guardarlas en tu app</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Danos tu permiso para poder tomar fotos de tu carrete y luego guardarlas en tu app</string>
 </dict>
 </plist>
