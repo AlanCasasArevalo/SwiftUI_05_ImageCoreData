@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  SwiftUI_05_ImageCoreData
-//
-//  Created by Everis on 28/08/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
+
 
 import UIKit
 import CoreData
