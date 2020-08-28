@@ -10,6 +10,7 @@
 		510851A324F9637E00142869 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510851A224F9637E00142869 /* CollectionView.swift */; };
 		510851A524F9639000142869 /* SaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510851A424F9639000142869 /* SaveView.swift */; };
 		510851A724F9639D00142869 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510851A624F9639D00142869 /* TopBarView.swift */; };
+		5177813524F9701B006ACF89 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5177813424F9701B006ACF89 /* ImagePicker.swift */; };
 		51C88F8224F95ED400A07D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C88F8124F95ED400A07D97 /* AppDelegate.swift */; };
 		51C88F8424F95ED400A07D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C88F8324F95ED400A07D97 /* SceneDelegate.swift */; };
 		51C88F8724F95ED400A07D97 /* SwiftUI_05_ImageCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51C88F8524F95ED400A07D97 /* SwiftUI_05_ImageCoreData.xcdatamodeld */; };
@@ -24,6 +25,7 @@
 		510851A224F9637E00142869 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		510851A424F9639000142869 /* SaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveView.swift; sourceTree = "<group>"; };
 		510851A624F9639D00142869 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		5177813424F9701B006ACF89 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		51C88F7E24F95ED400A07D97 /* SwiftUI_05_ImageCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_05_ImageCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C88F8124F95ED400A07D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C88F8324F95ED400A07D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				51C88F8124F95ED400A07D97 /* AppDelegate.swift */,
 				51C88F8324F95ED400A07D97 /* SceneDelegate.swift */,
+				5177813424F9701B006ACF89 /* ImagePicker.swift */,
 				51C88F9824F9627400A07D97 /* Models */,
 				510851A124F9636800142869 /* Views */,
 				51C88F8A24F95ED500A07D97 /* Assets.xcassets */,
@@ -180,6 +183,7 @@
 				510851A324F9637E00142869 /* CollectionView.swift in Sources */,
 				51C88F8224F95ED400A07D97 /* AppDelegate.swift in Sources */,
 				51C88F8424F95ED400A07D97 /* SceneDelegate.swift in Sources */,
+				5177813524F9701B006ACF89 /* ImagePicker.swift in Sources */,
 				51C88F8924F95ED400A07D97 /* ContentView.swift in Sources */,
 				510851A524F9639000142869 /* SaveView.swift in Sources */,
 				51C88F8724F95ED400A07D97 /* SwiftUI_05_ImageCoreData.xcdatamodeld in Sources */,
